@@ -27,7 +27,7 @@ public class LoginPage extends BaseTestClass {
 		String expresult = fl1.getCellData("Sheet1", 2, 2);
 		String status = fl1.validateMsg(actresult, expresult);
 		fl1.writeCellData("Sheet1", 2, 4, status);
-		Thread.sleep(2000);
+	
 	}
 	
 }
